@@ -1,0 +1,110 @@
+/* START: Task 1 Styles */
+.table, td{
+    border: solid 1px black;
+    margin: 0 auto;
+  }
+  td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .bgyellow{
+    background-color: yellow;
+  }
+  .bgblue{
+    background-color: blue;
+  }
+  .bggreen{
+    background-color: green;
+  }
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .non{
+    display: none;
+  }
+  .invalid{
+    color: white;
+    background-color: #FF8080;
+    border: 1px solid red;
+    padding: 0 20px;
+    margin: 10px 0;
+  
+  }
+  .valid{
+    color: white;
+    background-color: #008000;
+    border: 1px solid black;
+    padding: 0 20px;
+    margin: 10px 0;
+  }
+  input{
+    width: 85%;
+    height: 30px;
+  }
+  input:focus{
+    outline: none ;
+    border:1px solid black;
+  }
+  .btn{
+    height: 36px;
+    margin-left: -2px;
+  }
+  .invalidPhoneInput{
+    border: solid 1px red;
+  }
+  .invalidPhoneInput:focus {
+    outline: none ;
+    border: 1px solid red;
+  }
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#task3 {
+    padding-top: 50px;
+  }
+  
+  .basketball-cort {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 330px;
+    background-image: url(./assets/court.png);
+    background-size: cover;
+    cursor: pointer;
+  }
+  .ball__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -45%);
+  }
+  .basket {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 158px;
+  }
+  .left_basket {
+    left: 36px;
+  }
+  .right_basket {
+    right: 22px;
+  }
+  .score__wrapper {
+    margin: 0 auto;
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .display {
+    width: 100px;
+    height: 20px;
+  }
+/* END: Task 3 Styles */

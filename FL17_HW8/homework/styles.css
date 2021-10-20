@@ -1,0 +1,56 @@
+#app-root {
+  margin: 0 auto;
+  width: 90%;
+  font-family: sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-select {
+  display: flex;
+  justify-content: center;
+}
+
+#no-results-label {
+  text-align: center;
+}
+
+#results-table {
+  width: 100%;
+  text-align: center;
+}
+
+#results-table tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+#results-table th {
+  height: 2em;
+}
+
+#results-table tr:nth-child(even) {
+  background-color: white;
+}
+
+#results-table th {
+  background-color: rgb(2, 128, 44);
+  color: white;
+}
+
+.sort-arrow {
+  color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+}
