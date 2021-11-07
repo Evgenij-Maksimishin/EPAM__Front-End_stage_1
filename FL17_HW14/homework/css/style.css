@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto";
+}
+.navbar,
+main > div:last-child .card-title,
+main > div:last-child .card-text {
+  color: #111;
+}
+.btn,
+main > .bg-dark .card-title,
+main > .bg-dark .card-text,
+footer {
+  color: white;
+}
+.navbar-brand {
+  font-size: 2em;
+}
+.bg-btn {
+  background-color: coral;
+}
+:placeholder-shown,
+nav + div p:last-of-type {
+  color: #525252;
+}
+.my-4 {
+  font-size: 1.25em;
+}
